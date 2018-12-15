@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lógica de Programação</title>
+		<meta charset="UTF-8">
+	</head>
+	
+	<body>
+	<h1>Média de Idades</h1>
+
+	<script>
+	function pulaLinha() {
+
+	document.write("<br><br>");
+
+	}
+
+	function escreve(frase) {
+
+	document.write(frase);
+	pulaLinha();
+
+	}
+
+	var totalFamiliares = parseInt(prompt("Quantidade de familiares"));
+	var i = 1;
+	var totalIdades = 0;
+	
+	while(i <= totalFamiliares) {
+		
+		var idade = parseInt(prompt("Informe a idade do familiar"));
+		totalIdades = totalIdades + idade;
+		i++;
+		
+		}
+	
+	var mediaDasIdades = totalIdades/totalFamiliares;
+	escreve("Média das idades dos familiares é " + mediaDasIdades);	
+	escreve("FIM");
+		
+	</script>
+	</body>
+</html>
