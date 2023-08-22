@@ -1,5 +1,6 @@
 // Estruturas condicionais
 
+// Variáveis booleanas
 const eAzul = true;
 const eVermelho = false;
 // Negação 
