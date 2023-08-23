@@ -28,3 +28,6 @@ console.log(lista);
 lista.shift();
 
 console.log(lista);
+
+// tamanho do array
+console.log(lista.length)
