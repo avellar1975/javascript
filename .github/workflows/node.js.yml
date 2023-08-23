@@ -3,6 +3,8 @@ name: Node.js CI
 on:
   push:
     branches: [ main ]
+    branches-ignore:    
+      - 'certificados/**'
   pull_request:
     branches: [ main ]
 
