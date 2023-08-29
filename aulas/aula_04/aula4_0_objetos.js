@@ -1,5 +1,19 @@
 // Criando Objetos e Classes em JavaScript
 // Entendendo objetos
+// O tipo de dados mais importante do JavaScript é o objeto.
+// Um objeto é uma coleção de pares chave/valor
+
+let book = {
+    topic: "JavaScript",
+    edition: 7
+}
+
+console.log(book.topic);
+console.log(book["edition"]);
+book.author = "Flanagan";
+book.content = {};
+
+console.log(book);
 
 const evandro = {
     nome: 'Evandro Avellar',

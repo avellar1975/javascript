@@ -5,3 +5,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/avellar1975/javascript?color=orange)
 
 > Estudos sobre javascript
+
+I recommend you visit the [MDN website](https://developer.mozilla.org/). And for server-side Node APIs, I recommend you go directly to the source  and consult the Node.js reference [documentation](https://nodejs.org/api).
+
+
+

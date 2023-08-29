@@ -3,7 +3,49 @@ Variáveis e Operadores
 - Constantes
 - Variáveis
 - Operadores
+
+JavaScript is a case-sensitive language.
+
+JavaScript types can be divided into two categories: primitive types and
+object types.
+
+JavaScript’s primitive types include numbers, strings of
+text (known as strings), and Boolean truth values (known as booleans).
+
+The special JavaScript values null and undefined are primitive
+values, but they are not numbers, strings, or booleans.
+
+An ordinary JavaScript object is an unordered collection of named values
+
+Um identificador deve começar com uma letra, um sublinhado (_) ou um cifrão ($).
+Identificador = names of constants, variables, functions, or classes
 */
+
+// Qualquer coisa após barras duplas é um comentário.
+
+// Variáveis são declaradas com a palavra-chave let:
+let y;
+
+// Valores podem ser atribuídos a variáveis com um sinal =
+y = 0; // Agora a variável y tem o valor 0
+
+// JavaScript suporta vários tipos de valores
+y = 1; // Números.
+
+y = 0.01; // Os números podem ser inteiros ou reais.
+
+y = "olá mundo"; //Sequências de texto entre aspas.
+
+y = 'JavaScript'; // Aspas simples também delimitam strings.
+
+y = true; // Um valor booleano.
+
+y = false; // O outro valor booleano.
+
+y = null; // Null é um valor especial que significa "sem valor".
+
+y = undefined; // Indefinido é outro valor especial como null.
+
 
 // Imprimir um texto
 console.log('Olá mundo');
@@ -19,7 +61,9 @@ console.log(variavel)
 console.log(pi);
 
 
-// Operadores
+
+
+
 variavel = variavel + 10
 console.log(variavel)
 
@@ -47,3 +91,5 @@ let valorGasto = 0;
 valorGasto = (distancia / gastoMedioKm) * precoCombustivel;
 
 console.log(valorGasto.toFixed(2));
+
+console.log("\u{1F600}");  // Prints a smiley face emoji

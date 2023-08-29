@@ -17,3 +17,16 @@ function incrementarJuros(x, y) {
 }
 
 console.log(incrementarJuros(100, 15))
+
+
+// Funções são valores e podem ser atribuído a variáveis
+let square = function(x) {
+    return x * x;
+};
+
+console.log(square(12));
+
+//sintaxe abreviada para definir funções.
+const plus1 = x => x + 1;
+
+console.log(plus1(5)); // => 6
